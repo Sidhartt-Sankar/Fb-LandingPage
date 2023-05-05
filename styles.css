@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+}
+
+#container {
+    height: 100vh;
+    background-color: rgb(238, 241, 244);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-content {
+    width: 80%;
+    height: 65%;
+    margin: 8% auto;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main-content-box {
+    /* border: 1px solid green; */
+}
+
+.main-content-box-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 65%;
+
+}
+
+#main-content-box-1-img {
+    width: 50%;
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 0;
+}
+
+.main-content-box-1 p {
+    margin: 0 auto;
+    font-size: 30px;
+    width: 90%;
+}
+
+.main-content-box-2 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#main-content-box-2-form {
+    width: 80%;
+    height: 100%;
+    box-shadow: 0 0 10px black;
+    border-radius: 3px;
+    margin: auto;
+}
+
+.input-box {
+    /* border: 1px solid red; */
+    text-align: center;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 9px 0;
+}
+
+.input-box input {
+    width: 90%;
+    height: 80%;
+    border-radius: 5px;
+    border: 1px solid rgb(228, 227, 227);
+}
+
+#login-btn {
+    background-color: rgb(113, 113, 232);
+    color: white;
+    font-size: 20px;
+}
+
+.forgot-password {
+    /* border: 1px solid black; */
+    padding: 15px 0;
+    text-align: center;
+}
+
+.forgot-password a {
+    text-decoration: none;
+    color: rgb(77, 90, 237);
+}
+
+.hr-line {
+    width: 90%;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+
+.create-account-box {
+    width: 50%;
+    margin: auto;
+}
+
+#account-btn {
+    background-color: rgb(15, 175, 100);
+    color: white;
+    font-size: 20px;
+    width: 70%;
+}
+
+#create-a-page {
+    /* border: 1px solid black; */
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#create-a-page a {
+    text-decoration: none;
+    color: black;
+}
